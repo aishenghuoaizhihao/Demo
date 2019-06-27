@@ -1,10 +1,10 @@
 package com.itany.zshop.dao;
 
-import com.itany.zshop.pojo.ProductType;
 
-import java.util.List;
+public class ProductTypeDao {
 
-public interface ProductTypeDao {
+    public void show(){
+        System.out.println("testOne");
+    }
 
-    public List<ProductType> selectAll();
 }
